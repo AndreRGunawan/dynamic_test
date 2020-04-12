@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "dotenv": "^8.2.0",
     "jest": "^25.3.0",
     "supertest": "^4.0.2"
   },

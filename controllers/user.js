@@ -32,8 +32,7 @@ class UserController {
           id: response.id,
           email: response.email
         };
-        const token = jwt.sign(payload, 'secret');
-        console.log(token, payload);
+        const token = jwt.sign(payload, process.env.SECRET);
         return res.status(200).json({
           token
         });
