@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "adielpratama",
+    "password": "postgres",
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "test": {
+    "username": "adielpratama",
+    "password": "postgres",
+    "database": "testing_ecommerce",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
